@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: #163363;
+    border-radius: 2px;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.navbar__header {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: left;
+    position: relative;
+    margin-left: 40px;
+}
+
+.navbar__header::before {
+    position: absolute;
+    /* content: url("ascending-sort.png"); */
+    content: "";
+    left: -40px;
+    top: -5px;
+}
+
+.navbar__header-icon {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-10%, -50%);
+}
+
+.navbar__tab {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navbar__tab-label {
+    letter-spacing: 1px;
+}
+
+.navbar__tab-select {
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar__tab-select-option {
+    letter-spacing: 1px;
+}
+
+.btn {
+    border: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.241);
+    cursor: pointer;
+}
+
+.navbar__buttons{
+    float: right;
+}
+
+.navbar__gen-array {
+    background-color: chocolate;
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.navbar__sort {
+    /* float: right; */
+    font-size: 15px;
+    background-color: #2bb115;
+    color: white;
+}
+
+.sort {
+
+}
+
+.sort__bar {
+    height: 90vh;
+    position: relative
+}
+
+.sort__bar-array {
+    border-bottom: 5px solid brown;
+    position: absolute;
+    bottom: 5%;
+    width: 90%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sort__bar-array-items {
+    display: inline-block;
+    background-color: blue;
+    width: 15px;
+    margin: 2px;
+}
+
+
