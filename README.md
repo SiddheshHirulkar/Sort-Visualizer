@@ -5,3 +5,4 @@ The Sort Visualizer application use different types of sorting algoriths like bu
 ### Frameworks and libraries used
 React js framework is used on front end.
 
+See the actual application here -> https://siddheshhirulkar.github.io/Sort-Visualizer/
