@@ -98,10 +98,6 @@ body {
     color: white;
 }
 
-.sort {
-
-}
-
 .sort__bar {
     height: 90vh;
     position: relative
@@ -120,8 +116,8 @@ body {
 .sort__bar-array-items {
     display: inline-block;
     background-color: blue;
-    width: 15px;
-    margin: 2px;
+    width: 1.5%;
+    margin: 0.2%;
 }
 
 
